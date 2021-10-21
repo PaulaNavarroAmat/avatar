@@ -1,4 +1,6 @@
-void paula (){
+void paula (float posx, float posy){
+ translate(posx,posy);
+ push();
  
  line(m, m*2, m*4, m*2);
   line(m*4, m*2, m*4,m*5);
@@ -14,8 +16,7 @@ void paula (){
   //ojos
   point(m+m/4,m*3+m/2);
   point(m*3+m/2+m/8,m*3+m/2);
-  //point(50,140);
-  //point(145,140);
+
   
   line(m,m,m*5,m);
   line(m*5,m,m*5,m*6);
@@ -24,7 +25,7 @@ void paula (){
   line(m,m*4,m*2,m*4);
   line(m*3,m*4,m*4,m*4);
   //boca
-  //line(85,180,115,180);
+ 
   line(m*2+m/8,m*4+m/2,m*3-m/8,m*4+m/2);
   circle(m*2.5,m*4.5,m-m/2);
   //flequillo
@@ -33,12 +34,5 @@ void paula (){
    arc(m*2.8,m+m/3.5,m+m/4,m+m/4,0,HALF_PI);
       arc(m*3.7,m+m/3.5,m+m/4,m+m/4,0,HALF_PI);
    
-  
- // arc(50, 55, 50, 50, 0, HALF_PI);
- // arc(80, 55, 50, 50, 0, HALF_PI);
- // arc(110, 55, 50, 50, 0, HALF_PI);
-  
-  //arc(160, 120, 55, 60, 0, HALF_PI);
-
-  noLoop();
+ 
 }
