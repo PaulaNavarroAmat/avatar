@@ -33,6 +33,8 @@ void paula (float posx, float posy){
    arc(m*2,m+m/3.5,m+m/4,m+m/4,0,HALF_PI);
    arc(m*2.8,m+m/3.5,m+m/4,m+m/4,0,HALF_PI);
       arc(m*3.7,m+m/3.5,m+m/4,m+m/4,0,HALF_PI);
+      
+      pop();
    
  
 }
